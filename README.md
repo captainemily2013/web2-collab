@@ -18,5 +18,5 @@ We are making a murder mystery with puzzles!
   `git pull origin master`
 4. Push your changes to GitHub:
 
-  `git push origin master`
+  `git push origin name-of-your-branch`
 5. Create a Pull Request on GitHub
