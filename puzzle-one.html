@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fuse Box</title>
+        <style media="screen">
+            #circleOne{
+                    transform: rotate(0deg);
+            }
+            #circleTwo{
+                    transform: rotate(0deg);
+            }
+            #submit{
+                width: 100px;
+                height: 40px;
+                background-color: red;
+            }
+        </style>
+        <script src="jquery-3.1.0.min.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <img src="circle.png" alt="" width="200px" height="200px">
+            <img src="circle.png" alt="" width="200px" height="200px">
+        </div>
+
+        <div id="submit">
+            <h1>Submit</h1>
+        </div>
+    </body>
+    <script>
+    function rotationImg() {
+
+    }
+
+    var img = document.getElementById('container');
+    img.addEventListener('click', function(e){
+        rotationImg(e, 5)
+    });
+    /*
+        var one = 0;
+        var two = 0;
+        $(".one").click(function(){
+            if (one == 0){
+                $("#circleOne").css("transform", "rotate(90deg)");
+                one = 90;
+            } else if (one == 90) {
+                $("#circleOne").css("transform", "rotate(180deg)");
+                one = 180;
+            } else if (one == 180){
+                $("#circleOne").css("transform", "rotate(270deg)");
+                one = 270;
+            } else if (one == 270) {
+                $("#circleOne").css("transform", "rotate(0deg)");
+                one = 0;
+            }
+            console.log(one);
+        });
+        $("#submit").click(function(value){
+            if (one == 180 && two == 270){
+                alert("You solve it");
+            } else {
+                alert("Try again");
+            }
+        });*/
+    </script>
+</html>
