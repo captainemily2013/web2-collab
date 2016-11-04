@@ -4,11 +4,17 @@
         <meta charset="utf-8">
         <title>Fuse Box</title>
         <style media="screen">
-            #circleOne{
+            #one{
                     transform: rotate(0deg);
             }
-            #circleTwo{
-                    transform: rotate(0deg);
+            #two{
+                    transform: rotate(90deg);
+            }
+            .three{
+                    transform: rotate(180deg);
+            }
+            .four{
+                    transform: rotate(270deg);
             }
             #submit{
                 width: 100px;
@@ -20,8 +26,10 @@
     </head>
     <body>
         <div id="container">
-            <img src="circle.png" alt="" width="200px" height="200px">
-            <img src="circle.png" alt="" width="200px" height="200px">
+            <img class="one" data-rot="0" src="circle.png" alt="" width="200px" height="200px">
+            <img class="one" src="circle.png" alt="" width="200px" height="200px">
+            <img class="one" src="circle.png" alt="" width="200px" height="200px">
+            <img class="one" src="circle.png" alt="" width="200px" height="200px">
         </div>
 
         <div id="submit">
@@ -29,14 +37,23 @@
         </div>
     </body>
     <script>
-    function rotationImg() {
-
+    function rotationImg(e) {
+        var img = $(e.target);
+        var currentRot = img.attr("data-rot");
+        console.log("clicked");
+        if (currentRot == 0){
+            img.css("transform", "rotate(90deg)");
+            img.attr("data-rot", 1);
+        } else if (currentRot == 1) {
+            img.css("transform", "rotate(18-deg)");
+            img.attr("data-rot", 2);
+        }
     }
 
-    var img = document.getElementById('container');
+    var img = document.getElementById("container");
     img.addEventListener('click', function(e){
-        rotationImg(e, 5)
-    });
+        rotationImg(e);
+    },false);
     /*
         var one = 0;
         var two = 0;
