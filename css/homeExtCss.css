@@ -1,0 +1,164 @@
+@font-face {
+  font-family: bType;
+  src: url('../fonts/Bohemian typewriter.ttf') format('truetype');
+}
+
+body {
+  background-color: #000;
+  font-family: bType;
+  overflow: hidden;
+}
+
+h2 {
+  cursor: pointer;
+}
+
+h3 {
+  cursor: pointer;
+}
+.back {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+#title {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  margin-top: 5%;
+  margin-left: 36%;
+}
+
+#radio {
+  color: #f4cb42;
+  text-shadow: 2px 2px 3px #000;
+  margin-top: 10%;
+  margin-left: 80%;
+}
+
+#play {
+  display: inline-block;
+  color: #f00;
+  text-shadow: 2px 2px 3px #000;
+  font-size: 200%;
+  margin-top: 8%;
+  margin-left: 46%;
+}
+
+#about {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000;
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+#info {
+  z-index: 3;
+  position: absolute;
+  top: 1%;
+  left: 25%;
+  width: 50%;
+  height: 100%;
+  max-height: 800px;
+}
+
+#syn {
+  color: #000;
+  z-index: 4;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  width: 40%;
+  height: 90%;
+}
+
+@media screen and (max-width:1400px)
+{
+  #title {
+    margin-top: 5%;
+    margin-left: 35%;
+    font-size: 150%;
+  }
+
+  #radio {
+    margin-top: 11%;
+    margin-left: 80%;
+    font-size: 110%;
+  }
+
+  #play {
+    font-size: 140%;
+    margin-top: 6%;
+    margin-left: 46%;
+  }
+
+  #about {
+    margin-top: 12%;
+    margin-left: 9%;
+    font-size: 110%;
+  }
+}
+
+@media screen and (max-width:800px)
+{
+  #title {
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 110%;
+  }
+
+  #radio {
+    margin-top: 11%;
+    margin-left: 80%;
+    font-size: 90%;
+  }
+
+  #play {
+    font-size: 110%;
+    margin-top: 5%;
+    margin-left: 46%;
+  }
+
+  #about {
+    margin-top: 12%;
+    margin-left: 6%;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width:500px)
+{
+  #title {
+    margin-top: 5%;
+    margin-left: 25%;
+    font-size: 110%;
+  }
+
+  #radio {
+    margin-top: -2%;
+    margin-left: 80%;
+    font-size: 90%;
+  }
+
+  #play {
+    font-size: 110%;
+    margin-top: 10%;
+    margin-left: 44%;
+  }
+
+  #about {
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 90%;
+  }
+}
