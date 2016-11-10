@@ -11,7 +11,7 @@ We are making a murder mystery with puzzles!
 2. Make changes, and add/commit as you go:
 
   `git add name-of-file`
-  
+
   `git commit`
 3. As you are working, you may want to pull other peoples' changes from GitHub:
 
