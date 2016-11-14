@@ -85,7 +85,6 @@ h3 {
 @media screen and (max-width:1400px)
 {
   #title {
-    color: #f00;
     margin-top: 5%;
     margin-left: 35%;
     font-size: 150%;
@@ -113,7 +112,6 @@ h3 {
 @media screen and (max-width:800px)
 {
   #title {
-    color: #0f0;
     margin-top: 5%;
     margin-left: 25%;
     font-size: 110%;
@@ -141,7 +139,6 @@ h3 {
 @media screen and (max-width:500px)
 {
   #title {
-    color: #00f;
     margin-top: 5%;
     margin-left: 25%;
     font-size: 110%;
