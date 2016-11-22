@@ -1,0 +1,353 @@
+body{
+    background-color: #000000;
+}
+#fuse-box{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#one{
+    position: absolute;
+    top: 25px;
+    left: 175px;
+}
+#light-one{
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 224px;
+}
+#two{
+    position: absolute;
+    top: 26px;
+    left: 292px;
+}
+#light-two{
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 342px;
+}
+#three{
+    position: absolute;
+    top: 24px;
+    left: 406px;
+}
+#light-three{
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 455px;
+}
+#four{
+    position: absolute;
+    top: 25px;
+    left: 515px;
+}
+#light-four{
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 564px;
+}
+#five{
+    position: absolute;
+    top: 23px;
+    left: 625px;
+}
+#light-five{
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 674px;
+}
+#six{
+    position: absolute;
+    top: 138px;
+    left: 176px;
+}
+#light-six{
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 225px;
+}
+#seven{
+    position: absolute;
+    top: 138px;
+    left: 292px;
+}
+#light-seven{
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 341px;
+}
+#eight{
+    position: absolute;
+    top: 138px;
+    left: 406px;
+}
+#light-eight{
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 455px;
+}
+#nine{
+    position: absolute;
+    top: 138px;
+    left: 515px;
+}
+#light-nine{
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 565px;
+}
+#ten{
+    position: absolute;
+    top: 138px;
+    left: 625px;
+}
+#light-ten{
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 674px;
+}
+#eleven{
+    position: absolute;
+    top: 247px;
+    left: 175px;
+}
+#light-eleven{
+    display: none;
+    position: absolute;
+    top: 298px;
+    left: 224px;
+}
+#twelve{
+    position: absolute;
+    top: 247px;
+    left: 292px;
+}
+#light-twelve{
+    display: none;
+    position: absolute;
+    top: 297px;
+    left: 340px;
+}
+#thirteen{
+    position: absolute;
+    top: 247px;
+    left: 406px;
+}
+#light-thirteen{
+    display: none;
+    position: absolute;
+    top: 297px;
+    left: 455px;
+}
+#fourteen{
+    position: absolute;
+    top: 248px;
+    left: 515px;
+}
+#light-fourteen{
+    display: none;
+    position: absolute;
+    top: 297px;
+    left: 565px;
+}
+#fifteen{
+    position: absolute;
+    top: 248px;
+    left: 626px;
+}
+#light-fifteen{
+    display: none;
+    position: absolute;
+    top: 298px;
+    left: 675px;
+}
+#sixteen{
+    position: absolute;
+    top: 363px;
+    left: 175px;
+}
+#light-sixteen{
+    display: none;
+    position: absolute;
+    top: 412px;
+    left: 224px;
+}
+#seventeen{
+    position: absolute;
+    top: 363px;
+    left: 292px;
+}
+#light-seventeen{
+    display: none;
+    position: absolute;
+    top: 412px;
+    left: 340px;
+}
+#eighteen{
+    position: absolute;
+    top: 363px;
+    left: 406px;
+}
+#light-eighteen{
+    display: none;
+    position: absolute;
+    top: 412px;
+    left: 455px;
+}
+#nineteen{
+    position: absolute;
+    top: 363px;
+    left: 515px;
+}
+#light-nineteen{
+    display: none;
+    position: absolute;
+    top: 412px;
+    left: 565px;
+}
+#twenty{
+    position: absolute;
+    top: 363px;
+    left: 626px;
+}
+#light-twenty{
+    display: none;
+    position: absolute;
+    top: 412px;
+    left: 675px;
+}
+#twenty-one{
+    position: absolute;
+    top: 483px;
+    left: 174px;
+}
+#light-twenty-one{
+    display: none;
+    position: absolute;
+    top: 532px;
+    left: 224px;
+}
+#twenty-two{
+    position: absolute;
+    top: 484px;
+    left: 292px;
+}
+#light-twenty-two{
+    display: none;
+    position: absolute;
+    top: 532px;
+    left: 340px;
+}
+#twenty-three{
+    position: absolute;
+    top: 484px;
+    left: 406px;
+}
+#light-twenty-three{
+    display: none;
+    position: absolute;
+    top: 532px;
+    left: 455px;
+}
+#twenty-four{
+    position: absolute;
+    top: 484px;
+    left: 515px;
+}
+#light-twenty-four{
+    display: none;
+    position: absolute;
+    top: 532px;
+    left: 565px;
+}
+#twenty-five{
+    position: absolute;
+    top: 484px;
+    left: 625px;
+}
+#light-twenty-five{
+    display: none;
+    position: absolute;
+    top: 533px;
+    left: 675px;
+}
+#light-two-one{
+    display: none;
+    position: absolute;
+    top: 74px;
+    left: 95px;
+}
+#light-two-two{
+    display: none;
+    position: absolute;
+    top: 187px;
+    left: 54px;
+}
+#light-two-three{
+    display: none;
+    position: absolute;
+    top: 299px;
+    left: 98px;
+}
+#light-two-four{
+    display: none;
+    position: absolute;
+    top: 416px;
+    left: 51px;
+}
+#light-two-five{
+    display: none;
+    position: absolute;
+    top: 534px;
+    left: 94px;
+}
+#correct{
+    display: none;
+    position: absolute;
+    top: 625px;
+    left: 76px;
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 271px;
+    left: 798px;
+    transform: rotate(-90deg);
+
+    width: 180px;
+    height: 80px;
+}
+#nextPage{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,0);
+}
+img{
+    margin: -5px;
+}
+a{
+    color: rgb(255,255,0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255,255,255);
+}
