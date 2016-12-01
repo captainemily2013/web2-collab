@@ -78,7 +78,7 @@ body{
 
 .first-person {
     margin:10px 0 30px 0;
-    background: url("../img/torn.png");
+    background: url("img/torn.png");
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'bohemian';
